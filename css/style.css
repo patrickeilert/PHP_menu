@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	height: 100%;
+}
+
+body {
+        
+    background: #fff;
+    font-family: helvetica, sans-serif;
+    text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 35px;
+    background: #336E7B;
+    text-align: right;
+    overflow: hidden;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: darkgrey;
+}
+
+ .active {
+    padding-bottom: 5px; 
+    border-bottom: 1px solid white;
+}
+
+.content-ctn {
+    height: 75%;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    text-decoration-color: darkgrey;
+    border-top: 1px solid #336E7B;
+
+}
+
+
